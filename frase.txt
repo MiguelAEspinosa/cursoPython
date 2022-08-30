@@ -1,0 +1,1 @@
+No te olvides de poner el where en el delete FROM
