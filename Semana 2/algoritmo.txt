@@ -1,0 +1,7 @@
+1.-Prender la computadora
+2.-Colocar nombre de usuario de mi sesión
+3.-Colocar contraeseña de mi sesión
+4.-Elegir juego a jugar
+5.-Dar clic en el icono de acceso directo
+6.-Colocar nombre de usuario de la sesión del juego
+7.-Colocar contraseña del usuario de la sesión del juego
