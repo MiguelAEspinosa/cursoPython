@@ -6,7 +6,12 @@ a=float(input("Escriba el valor del primer parametro: "))
 b=float(input("Escriba el valor del segundo parametro: "))
 c=float(input("Escriba el valor del tercer parametro: "))
 
-x1 = (-b+cmath.sqrt((b**2)-(4*a*c)))/(2*a)
-x2 = (-b-cmath.sqrt((b**2)-(4*a*c)))/(2*a)
+def discriminante(a,b,c):
+    return (b**2)-(4*a*c)
+
+
+dis = discriminante(a,b,c)
+x1 = (-b+cmath.sqrt(dis))/(2*a)
+x2 = (-b-cmath.sqrt(dis))/(2*a)
 
 print("El conjunto de soluciones es {0} , {1}".format(x1,x2))
